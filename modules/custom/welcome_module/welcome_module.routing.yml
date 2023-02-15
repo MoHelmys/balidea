@@ -1,0 +1,15 @@
+welcome_module.welcome:
+  path: '/balidea/page'
+  defaults:
+    _controller: '\Drupal\welcome_module\Controller\WelcomeController::welcome'
+    _title: 'Config Module Results Above'
+  requirements: 
+    _role: 'authenticated'
+
+welcome_module.welcome_form:
+  path: '/admin/config/welcome-configuration'
+  defaults:
+    _form: Drupal\welcome_module\Form\WelcomeMessageConfigurationForm
+    _title: 'Welcome to Balidea 🇪🇸 Configuration Form'
+  requirements:
+    _permission: 'administer site configuration'

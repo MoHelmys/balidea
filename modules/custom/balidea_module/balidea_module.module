@@ -1,0 +1,12 @@
+<?php 
+
+function balidea_module_theme() {
+    return [
+        'welcome-body' => [
+            'template' => 'welcome-body',
+            'variables' => [
+                'body' => 'Default body text'
+            ]
+        ]
+    ];
+} 

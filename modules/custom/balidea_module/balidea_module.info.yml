@@ -1,0 +1,5 @@
+name: Balidea Custom Module for adding text Paragraph 
+type: module
+description: 'This is custom module for Drupal 9.'
+package: Custom
+core_version_requirement: ^9 || ^10

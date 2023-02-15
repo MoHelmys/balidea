@@ -1,0 +1,22 @@
+name: Balidea Theme
+type: theme
+'base theme': stable9
+starterkit: true
+version: 0.1
+libraries:
+  - welcome_theme/base
+  - welcome_theme/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - welcome_theme/user
+  core/drupal.dropbutton:
+    - welcome_theme/dropbutton
+  core/drupal.dialog:
+    - welcome_theme/dialog
+  file/drupal.file:
+    - welcome_theme/file
+  core/drupal.progress:
+    - welcome_theme/progress
+core_version_requirement: ^9 || ^10
+generator: 'starterkit_theme:9.5.3'

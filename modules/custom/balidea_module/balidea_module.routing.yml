@@ -1,0 +1,7 @@
+balidea_module.welcome:
+  path: '/balidea'
+  defaults:
+    _controller: 'Drupal\balidea_module\Controller\BalideaController::welcome'
+    _title: 'Welcome to Balidea Software House'
+  requirements:
+    _permission: 'access content'

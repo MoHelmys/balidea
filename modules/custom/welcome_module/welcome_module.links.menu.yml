@@ -1,0 +1,6 @@
+welcome_module.welcome:
+  title: 'Welcome'
+  description: 'Welcome module menu link'
+  route_name: welcome_module.welcome
+  menu_name: main
+  weight: 0
